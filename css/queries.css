@@ -1,0 +1,150 @@
+/* FONT SIZE SYSTEM (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98  */
+
+/* SPACING SYSTEM (px): 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128  */
+
+/****************************/
+/* BELOW 1344px (SMALLER desktops)*/
+/****************************/
+@media (max-width: 84em) {
+  .lista-works {
+    column-gap: 25px;
+  }
+}
+
+/**************************************/
+/* BELOW 1200px (Landscape Tablets)*/
+/**************************************/
+
+@media (max-width: 75em) {
+  .lista-works {
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 12px;
+    column-gap: 12px;
+    padding-top: 48px;
+  }
+
+  .img-work {
+    width: 300px;
+  }
+}
+
+/**************************************/
+/* BELOW 944px (Tablets)*/
+/**************************************/
+
+@media (max-width: 59em) {
+  .lista-works {
+    grid-template-columns: 220px 220px 220px;
+    column-gap: 25px;
+    padding-top: 48px;
+  }
+
+  .img-work {
+    width: 220px;
+  }
+
+  .lista-services {
+    grid-template-columns: 220px 220px 220px;
+    row-gap: 6px;
+    column-gap: 12px;
+    padding-top: 48px;
+  }
+
+  .footer {
+    height: 220px;
+  }
+}
+
+/**************************************/
+/* BELOW 704px (Smaller Tablets)*/
+/**************************************/
+
+@media (max-width: 44em) {
+  .title-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+    padding-top: 32px;
+    padding-bottom: 18px;
+  }
+
+  .lista-services {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+    margin-bottom: 28px;
+    gap: 24px;
+  }
+
+  .img-work {
+    width: 100%;
+  }
+
+  .lista-works {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 64px;
+    justify-self: center;
+    justify-items: center;
+    padding-top: 48px;
+  }
+
+  .text-serv {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 48px;
+  }
+
+  .work-list {
+    width: 80%;
+  }
+
+  .title-works {
+    font-size: 28px;
+  }
+
+  .container {
+    height: 550px;
+  }
+
+  .title-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding-top: 40px;
+  }
+
+  .padding-top {
+    padding-top: 12px;
+  }
+  .lista-media {
+    padding-top: 12px;
+  }
+
+  .footer {
+    height: 200px;
+  }
+}
+
+/**************************************/
+/* BELOW 544px (Phones)*/
+/**************************************/
+
+@media (max-width: 34em) {
+  .header {
+    padding-inline: 30px;
+  }
+
+  .container {
+    height: 600px;
+  }
+}
