@@ -2,3 +2,5 @@
 
 Code used:
 Bootstrap, html and css. 
+
+https://ezebarredo.github.io/beautysalon/
